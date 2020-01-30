@@ -1,0 +1,1030 @@
+.main-container{
+    width:1470px;
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+}
+.heading{
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    padding-top:116px;
+    padding-bottom:42px;
+    background: url('../img/bckgr.jpg') no-repeat center center;
+    background-size: cover;
+    margin:0 auto;
+}
+.heading__content{
+    width:77.58%;
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+   
+}
+.heading__content_top{
+    color: #ffffff;
+    font-family:$variablefontlato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    margin-top:194px;
+    word-wrap: break-word;
+}
+.heading__content_top_1{
+    color: #12c1fc;
+    font-family:$variablefontlato;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top:23px;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    word-wrap: break-word;
+}
+.heading__content h1{
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-family:$variablefontlato;
+    letter-spacing: 2px;
+    color:white;
+    margin-top:22px;
+}
+.heading__content h2{
+    color: #ffffff;
+    font-family: $textparagraph;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top:39px;
+    letter-spacing: 0.7px;
+}
+.heading button{
+    text-transform: uppercase;
+    width: 164px;
+    max-width: 100%;
+    height: 54px;
+    border: 2px solid #ffffff;
+    background:none;
+    color: #ffffff;
+    font-family:$variablefontlato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top:37px;
+    letter-spacing: 0.8px;
+    transition:all .5s ease;  
+}
+.heading button:hover{
+    border:2px solid white;
+    color:white;
+    background:#12c1fc;
+    transition:all .5s ease;
+}
+.heading__content_arrow{
+    width:88px;
+    max-width: 100%;
+    height:auto;
+    margin:167px auto 0px auto;
+    cursor: pointer;
+}
+.heading__content_arrow p{
+    text-align: center;
+    color: #ffffff;
+    font-family:$variablefontlato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+}
+.heading__content_arrow div img{
+    display: block;
+    margin:12px auto 0px auto;
+    cursor: pointer;
+    animation: arrrow 2s infinite;
+}
+.formlist{
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+    background:#f6f6f6;
+    padding-bottom:40px;
+}
+.formlist__content h4{
+    color: #626161;
+    font-family:$variablefontlato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    padding-top:25px;
+}
+.formlist__content{
+    width:978px;
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+}
+.formlist__content_form{
+    width:978px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:auto;
+    max-width: 100%;
+    margin:30px auto 0px auto;
+}
+.formlist__content_form_date{
+    width:144px;
+    max-width: 100%;
+    height:48px;
+    background:url('../img/button3.png') no-repeat;
+    border:none;
+    color: #626161;
+    font-family:$variablefontlato;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: 0.35px;
+    padding-left:9px;
+}
+.formlist__content_form_date_2{
+    width:144px;
+    max-width: 100%;
+    height:48px;
+    background:url('../img/button2.png')no-repeat;
+    border:none;
+    color: #626161;
+    font-family:$variablefontlato;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: 0.35px;
+    padding-left:9px;
+}
+.formlist__content_form_text{
+    width:144px;
+    max-width: 100%;
+    height:48px;
+    background: url('../img/button1.png')no-repeat;
+    background-size: cover;
+    border:none;
+    padding-left:15px;
+    color: #626161;
+    font-family:$variablefontlato;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: 0.35px;
+}
+.formlist__content_form_text1{
+    width:144px;
+    max-width: 100%;
+    height:48px;
+    background:#dbdbdb; 
+    border:none;
+    padding-left:15px;
+    color: #626161;
+    font-family:$variablefontlato;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: 0.35px;
+}
+
+::-webkit-datetime-edit { padding: 5px; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    margin-top:10px;
+    display: block;
+    background: url('../img/kalendar.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+.formlist__content_form button{
+    width:199px;
+    max-width: 100%;
+    height:48px;
+    background-color: #1289d5;  
+    border:none;        
+    color: #ffffff;
+    font-family:$variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.formlist__content_form button:hover{
+    background:#12c1fc;
+    transition: all .5s ease;
+}
+.maoncontent{
+    width:1470px;
+    max-width: 100%;
+    height:auto;
+    margin:98px auto 0px auto;
+}
+.maoncontent_aboutus{
+    width:942px;
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.maoncontent_aboutus_leftside{
+    width: 360px;
+    max-width:100%;
+    height: 486px;
+    border: 1px solid #b1b0b0;
+    background:white;
+    position:relative;
+
+}
+.maoncontent_aboutus_leftside div{
+    width: 338px;
+    max-width: 100%;
+    height: 464px;
+    background:url('../img/bckgr.jpg') no-repeat center center;
+    background-size:cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.maoncontent_aboutus_rightside{
+    width:550px;
+    max-width: 100%;
+    height:auto;
+}
+.maoncontent_aboutus_rightside h6{
+    color: #fdd687;
+    font-family: $variablefontlato;
+    font-size: 40px;
+    font-weight: 700;
+ 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top:50px;
+    word-wrap: break-word;
+}
+.maoncontent_aboutus_rightside_first{
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:40px;
+}
+.maoncontent_aboutus_rightside_second{
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:22px;
+}
+.maoncontent_aboutus_rightside button{
+    float:right;
+    width:140px;
+    height:50px;
+    max-width: 100%;
+    background:#1289d5;
+    border:none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-top:36px;
+    transition:all .5s ease;
+}
+.maoncontent_aboutus_rightside button:hover{
+    background: white;
+    border:1px solid #1289d5;
+    color:#1289d5;
+    transition:all .5s ease;
+}
+.maoncontent_aboutus_logo{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin:100px auto 0px auto;
+}
+@keyframes arrrow{
+        0%{
+            transform:translateY(0px)
+        }
+        50%{
+            transform:translateY(15px)
+        }
+        100%{
+            transform:translateY(0px)
+        }
+}
+.maoncontent__destin{
+    width:1140px;
+    max-width: 100%;
+    height:auto;
+    margin:99px auto 0px auto;
+
+}
+.maoncontent__destin h4{
+    color: #fdd687;
+    font-family: $variablefontlato;
+    font-size: 40px;
+    font-weight: 700;
+    text-align:center;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.maoncontent__destin h5{
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:26px;
+}
+.maoncontent__destin_block{
+    width:1140px;
+    max-width: 100%;
+    height:auto;
+    margin:33px auto 0px auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.maoncontent__destin_components{
+    width:360px;
+    height:281px;
+    max-width: 100%;
+    border: 1px solid rgba(177, 176, 176, 0.6);
+    background-color: white;
+    position: relative;
+  
+    cursor: pointer;
+ 
+  
+}
+.maoncontent__destin_components_moment{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:338px;
+    max-width: 100%;
+    height:260px;
+    background:url('../img/bckgr.jpg') no-repeat center center;
+    background-size:cover;
+}
+
+.maoncontent__destin_components_moment_dis{
+    width:100%;
+    height:100%;
+    max-width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background:rgba(18,137,213,.5);
+    transition:all .5s ease;
+    opacity: 0;
+}
+.maoncontent__destin_components_moment_dis button{
+    width: 164px;
+    height: 54px;
+    border: 2px solid #ffffff;
+    background:none;
+    max-width: 100%;
+    color: #ffffff;
+    font-family: $variablefontlato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transition: all .5s ease;
+    transform: translate(-50%,-50%)
+}
+.maoncontent__destin_components_moment_dis button:hover{
+    background:#1289d5;
+    transition: all .5s ease;
+}
+.maoncontent__destin_components:hover .maoncontent__destin_components_moment_dis{
+    opacity: 1;
+    transition:all .5s ease;
+}
+.text_oo1{
+    text-align: center;
+    line-height: 24px;
+    font-size:20px;
+    color:#1289d5;
+    font-family: $variablefontlato;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top:29px;
+}
+.maoncontent__destin_block_div{
+    max-width: 100%;
+    margin-top:40px;
+}
+.dissibles{
+    display: none;
+}
+.openerbutton{
+    display: block;
+    margin:28px auto 0px auto;
+    width:223px;
+    max-width: 100%;
+    height:50px;
+    background:#1289d5;
+    border:none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    transition: all .5s ease;  
+}
+.openerbutton:hover{
+    background:#12c1fc;
+    transition: all .5s ease;
+}
+.maoncontent__suggest{
+    width:1470px;
+    max-width: 100%;
+    margin:100px auto 0px auto;
+    height:auto;
+    padding-bottom:97px;
+    background:url('../img/bbborder.png')
+}
+.maoncontent__suggest h4{
+    color: #fdd687;
+    font-family: $variablefontlato;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top:102px;
+    word-wrap: break-word;
+}
+.maoncontent__suggest h5{
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.01px;
+    text-align: center;
+    margin-top:26px;
+
+}
+.maoncontent__suggest__compilation{
+    width:1143px;
+    max-width: 100%;
+    height:auto;
+    margin:56px auto 0px auto;
+
+}
+.maoncontent__suggest__compilation_div{
+    width:1143px;
+    max-width: 100%;
+    height:auto;
+    background:white;
+    margin:30px auto 0px auto;
+    border: 1px solid rgba(199, 199, 199, 0.25);
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.maoncontent__suggest__compilation_div_1{
+    width:263px;
+    max-width:100%;
+    height:200px;
+    background:white;
+}
+.maoncontent__suggest__compilation_div_2{
+    width:205px;
+    max-width:100%;
+    height:200px;
+    background:#f0f0f0;
+
+}
+.maoncontent__suggest__compilation_div_p{
+    text-align: center;
+    margin-top:30px;
+
+}
+.maoncontent__suggest__compilation_div_1 h3{
+    text-align: center;
+    color: #fcd890;
+    font-family: $variablefontlato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-top:22px;
+    word-wrap:break-word;
+}
+.maoncontent__suggest__compilation_div_p2{
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+    line-height: 21px;
+    margin-top:13px;
+}
+.maoncontent__suggest__compilation_div_2_o1{
+    text-align: center;
+    color: #1289d5;
+    font-family:$variablefontlato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-top:30px;
+}
+.maoncontent__suggest__compilation_div_2_o2{
+    text-align: center;
+    color: #7e7e7e;
+    font-family: $textparagraph;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:14px;
+    line-height: 21px;
+}
+.img_iconone{
+width:97px;
+max-width: 100%;
+height:auto;
+margin:15px auto 0px auto;
+display: flex;
+}
+
+
+.img_iconone p{
+    padding-left:10px;
+    color: #7e7e7e;
+    font-family: $variablefontlato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.img_iconone__1{
+    margin-top:2px;
+}
+
+.img_icontwo{
+    width:95px;
+    max-width: 100%;
+    height:auto;
+    margin:8px auto 0px auto;
+    display: flex;
+    }
+    
+    
+    .img_icontwo p{
+        padding-left:13px;
+        color: #7e7e7e;
+        font-family: $variablefontlato;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .img_iconone__2{
+        margin-top:2px;
+    }
+    .img_icontwo1{
+        width:130px;
+        max-width: 100%;
+        height:auto;
+        margin:8px auto 0px auto;
+        display: flex;
+        }
+        
+        
+        .img_icontwo1 p{
+            padding-left:13px;
+            color: #7e7e7e;
+            font-family: $variablefontlato;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 21px;
+        }
+        .img_iconone1__2{
+            margin-top:2px;
+        }
+.my_buttonsub{
+    text-align:center;
+}
+.my_buttonsub button{
+    width: 140px;
+    max-width: 100%;
+    border:none;
+    height: 50px;
+    background-color: #1289d5;
+    color: #ffffff;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    border-radius: 3px;
+    margin-top:56px;
+    transition: all .5s ease;
+}
+.text_underliner{
+    text-align: center;
+    color: #999999;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    margin-top:2px;
+}
+.text_underliner a{
+    color: #fed27a;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    letter-spacing: 0.7px;
+}
+.my_buttonsub button:hover{
+    background: #12c1fc;
+    transition: all .5s ease;
+}
+.maoncontent__tourbooker{
+    width:1470px;
+    height:auto;
+    max-width:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+
+}
+.maoncontent__tourbooker_first_1{
+    width:735px;
+    max-width:100%;
+    height:554px;
+    background:url('../img/bckgr.jpg') no-repeat center center;
+    background-size:cover;
+}
+.maoncontent__tourbooker_second_2{
+    width:735px;
+    max-width:100%;
+    height:auto;
+    background:#e1e5e9;
+}
+.maoncontent__tourbooker_second_2 h2{
+    color: #1289d5;
+    font-family: $variablefontlato;
+    font-size: 32px;
+    font-weight: 700;
+    word-wrap:break-word;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:167px
+}
+.maoncontent__tourbooker_second_text{
+    color: #777777;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:57px;
+}
+.maoncontent__tourbooker_second_text_1{
+    text-align:center;
+    color: #939292;
+    font-family: $textparagraph;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.04px;
+    margin-top:27px;
+}
+.maoncontent__tourbooker_second_button{
+    text-align:center;
+}
+.maoncontent__tourbooker_second_button button{
+    width: 140px;
+    max-width:100%;
+    height: 50px;
+    background-color: #1289d5;
+    color: #ffffff;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    border-radius: 3px;
+    border:none;
+    margin-top:42px;
+    transition: all .5s ease;
+}
+.maoncontent__tourbooker_second_button button:hover{
+    background:#12c1fc;
+    transition: all .5s ease;
+}
+.maoncontent__notyet button:hover{
+    background:#12c1fc;
+    transition: all .5s ease;
+}
+.maoncontent__notyet{
+    width:1470px;
+    max-width:100%;
+    height:auto;
+    margin:95px auto 0px auto;
+}
+.maoncontent__notyet h3{
+    text-align:center;
+    color: #1289d5;
+    font-family: $variablefontlato;
+    font-size: 30px;
+    font-weight: 400;
+    word-wrap:break-word;
+}
+.maoncontent__notyet p{
+    text-align: center;
+    color: #999999;
+    font-family: $textparagraph;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top:33px;
+}
+.maoncontent__notyet form{
+    width:552px;
+    height:auto;
+    max-width: 100%;
+    margin:57px auto 0px auto;
+}
+.maoncontent__notyet input{
+    width:385px;
+    max-width:100%;
+    height:54px;
+    border: 2px solid #e7e6e6;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f8f7f7;
+    border-right:none;
+    padding-left:25px;
+    color: #b1b1b1;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: 0.7px;
+}
+.maoncontent__notyet input::placeholder{
+    color: #b1b1b1;
+}
+.maoncontent__notyet button{
+    width: 167px;
+    max-width:100%;
+    height: 54px;
+    background-color: #1289d5;
+    color: #ffffff;
+    border-radius: 3px;
+    border:none;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    transition: all .5s ease;
+}
+.maoncontent__notyet_prefooters{
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    padding-bottom:50px;
+    background:url('../img/prefooter.png') no-repeat center center;
+    background-size:cover;
+    margin:85px auto 0px auto;
+
+}
+.maoncontent__notyet_prefooters_div{
+    width:1114px;
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.maoncontent__notyet_prefooters_div_2{
+    width:340px;
+    max-width:100%;
+    height:auto;
+    
+}
+.flexalert{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    margin-top:15px;
+}
+.flexalert1{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+.maoncontent__notyet_prefooters_div_2 h4{
+    text-align:left;
+    color: #7d7d7d;
+    font-family: $variablefontlato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-top:94px;
+}
+.maoncontent__notyet_prefooters_div_2 h5{
+    color: #6d6d6d;
+    font-family: $textparagraph;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top:21px;
+    margin-bottom:24px;
+}
+.flexalert p{
+    color: #6d6d6d;
+    font-family: $textparagraph;
+    padding-left:15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;  
+}
+.flexalert p a{
+    color: #6d6d6d;
+    font-family: $textparagraph;
+  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;  
+    text-decoration:none;
+}
+.flexalert1 p{
+    color: #6d6d6d;
+    font-family: $textparagraph;
+    padding-left:15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;  
+}
+.flexalert1 p a{
+    color: #6d6d6d;
+    font-family: $textparagraph;
+  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;  
+    text-decoration:none;
+}
+.toglerino{
+    color:#1cdbe7;
+}
+.dskaska{
+    margin-top:4px;
+}
+// Media
+@media screen and (max-width:1470px){
+    .maoncontent__tourbooker_first_1{
+        margin:10px auto 0px auto;
+    }
+    .maoncontent__tourbooker_second_2{
+        margin:10px auto 0px auto;
+        padding-bottom:50px;
+    }
+}
+@media screen and(max-width:1140px){
+    .maoncontent__suggest__compilation_div{
+        background:none;
+    }
+    .maoncontent__suggest__compilation_div_2{
+        margin:10px auto 0px auto;
+    }
+    .maoncontent__suggest__compilation_div_1{
+        margin:10px auto 0px auto;
+    }
+    .maoncontent__destin_block_div{
+        margin:10px auto 0px auto;
+    }
+}
+.maoncontent__notyet div{
+    width:221px;
+    max-width:100%;
+    height:auto;
+    margin:102px auto 0px auto;
+}
+.maoncontent__notyet div img{
+    display: block;
+    max-width:100%;
+    height:auto;
+}
+@media screen and(max-width:1114px){
+    .maoncontent__notyet_prefooters_div_2{
+        margin:10px auto 0px auto;
+    }
+}
+@media screen and(max-width:927px){
+    .maoncontent_aboutus_rightside{
+        margin:10px auto 0px auto
+    }
+    .maoncontent_aboutus_leftside{
+        margin:10px auto 0px auto;
+    }
+}
+
+@media screen and(max-width:920px){
+    
+    .formlist__content_form{
+        justify-content: flex-start;
+    }
+    .formlist__content_form_date{
+       margin:10px auto 0px auto;
+    }
+    .formlist__content_form_date_2{
+        margin:10px auto 0px auto;
+    }
+    .formlist__content_form_text{
+        margin:10px auto 0px auto;
+    }
+    .formlist__content_form button{
+        margin:10px auto 0px auto;
+    }
+    .jq-selectbox{
+        margin:10px auto 0px auto;
+    }
+}
+@media screen and (max-width:570px){
+    .container__footer_div p{
+        text-align: center;
+    }
+    .maoncontent__destin{
+        width:90%;
+        max-width: 100%;
+    }
+    .maoncontent_aboutus{
+        width:90%;
+        max-width: 100%;
+    }
+    .maoncontent_aboutus{
+        width:90%;
+        max-width: 100%;
+    }
+    .maoncontent__notyet{
+        width:90%;
+        max-width: 100%;
+    }
+    .maoncontent__notyet_prefooters_div{
+        width:90%;
+        max-width: 100%;
+    }
+    .maoncontent__notyet button{
+        display: block;
+        margin:10px auto 0px auto;
+    }
+    .maoncontent__notyet input{
+        border: 2px solid #e7e6e6;
+        border-radius: 3px;
+        margin:0 auto;
+        display: block;
+    }
+}
